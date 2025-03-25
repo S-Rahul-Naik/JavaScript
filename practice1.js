@@ -16,9 +16,6 @@
 
 
 
-
-
-
 // Traffic light sysytem for beginners
 
 // let color = "green";
@@ -37,6 +34,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 // else if conditinal statements
 
 // let agie = 18;
@@ -46,8 +52,6 @@
 // else if(agie < 18) {
 //     console.log("you cant vote");
 // } 
-
-
 
 
 
@@ -73,6 +77,13 @@
 // }else if (month==="april"){
 //     console.log("summer is here")
 // }
+
+
+
+
+
+
+
 
 
 
@@ -114,4 +125,130 @@
 
 
 
-// 
+// // to calculate popcorn prices based on size
+
+// let size ="L";
+// if (size==="XL"){
+//     console.log(`price of pizza size ${size} is 250`);
+// }else if (size==="L"){
+//     console.log(`price of pizza size ${size} is 200`);
+
+// }else if (size==="M"){
+//     console.log(`price of pizza size ${size} is 100`);
+
+// }else{
+//     console.log(`price of pizza size ${size} is 50`);
+
+// }
+
+
+
+     
+
+
+
+
+// NESTING IF_ELSE STATEMENTS
+// let marks = 80
+// if (marks>=33){
+//     console.log("pass");
+//     if(marks>=80){
+//         console.log("Grade : O");
+//     }
+//     else{
+//         console.log("Grade : A")
+//     }
+// }
+// else{
+//     console.log("Better luck next time!")
+// }
+
+
+
+// // logical operators
+
+// let marks =75;
+// if((marks<33 && marks>=80) || !false){
+//     console.log("pass");
+// }
+
+
+// good string if its starts vth "a" and has length >3
+// let str= "amps"
+// let l=str.length;
+// if(str[0]==="a" && l>3){
+//     console.log("good string")
+// }
+// else{
+//     console.log("bad string")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// use switch stt to print the day of the week using num variable 'day' with values 1-7
+
+// let day = 5
+// switch(day){
+//     case 1:
+//         console.log("MONDAY");
+//         break;
+//     case 2:
+//         console.log("TUESDAY");
+//         break;
+//     case 3:
+//         console.log("WEDNESDAY");
+//         break;
+//     case 4:
+//         console.log("THURSDAY");
+//         break;
+//     case 5:
+//         console.log("FRIDAY");
+//         break;
+//     case 6:
+//         console.log("SATURDAY");
+//         break;
+//     case 7:
+//         console.log("SUNDAY");
+//         break;
+//     default:
+//         console.log("ENTER CORRECT CHOICEs");
+// }
+
+
+
+
+
+
+// // ALERT & PROMPT
+// alert("danger")
+// console.log("this is simple log");
+// console.error("this is simple log");
+
+// let name1 = prompt("please enter your name: ");
+// let name2 = prompt("please enter your age: ");
+// alert(`${name1} is ${name2} years old! `);
+
+
+
+// let name3 ="Apple";
+// if((name3[0]=='a' || name3[0]=='A') && name3.length>5){
+//     console.log("A golden string");
+// }else{
+//     console.log("its not a golden string");
+// }
+
+
+
+
+
+
