@@ -240,12 +240,12 @@
 
 
 
-// let name3 ="Apple";
-// if((name3[0]=='a' || name3[0]=='A') && name3.length>5){
-//     console.log("A golden string");
-// }else{
-//     console.log("its not a golden string");
-// }
+let name3 ="Apple";
+if((name3[0]=='a' || name3[0]=='A') && name3.length>5){
+    console.log("A golden string");
+}else{
+    console.log("its not a golden string");
+}
 
 
 
