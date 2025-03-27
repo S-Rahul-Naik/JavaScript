@@ -292,10 +292,33 @@
 // }
 
 
-let str=prompt("please enter a string");
-let n=3
-if(str[n]==str[n].toLowerCase()){
-    console.log(`true ${str[n]}`);
-}else{
-    console.log(`false ${str[n]}`);
-}
+// let str=prompt("please enter a string");
+// let n=3
+// if(str[n]==str[n].toLowerCase()){
+//     console.log(`true ${str[n]}`);
+// }else{
+//     console.log(`false ${str[n]}`);
+// }
+
+
+
+// //  for loops
+// for(let i=1;i<=5;i++){
+//     console.log(i)
+// }
+
+// for (i=5;i>=1;i--){
+//     console.log(i)
+// }
+
+
+
+
+// // while loop
+
+// let fav= "avatar";
+// let guess=prompt("guess movie name");
+// while((guess!=fav)&&(guess!="quit")){
+//     guess=prompt("again guess movie name")
+// }
+
