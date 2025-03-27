@@ -240,15 +240,62 @@
 
 
 
-let name3 ="Apple";
-if((name3[0]=='a' || name3[0]=='A') && name3.length>5){
-    console.log("A golden string");
+// let name3 ="Apple";
+// if((name3[0]=='a' || name3[0]=='A') && name3.length>5){
+//     console.log("A golden string");
+// }else{
+//     console.log("its not a golden string");
+// }
+
+
+
+
+
+// string METHODS
+// str.trim()
+
+
+// let msg="  hello  ";
+// console.log(msg);
+
+// let pw=prompt("set ur password");
+// console.log(pw.trim());
+
+
+// .toUpperCase & .toLowerCase():
+
+// let str = "RaHuL";
+// k=str.toUpperCase();
+// l=str.toLowerCase();
+// console.log(k);
+// console.log(l);
+
+
+
+
+// ARRAYS:
+
+// let students=["rahul","florence"];
+// // students;--------> console
+// let arr=[7,9,0,-2];
+// let k=arr.slice(0,3);
+// console.log(k);
+// let r= arr.slice(-3)
+// console.log(r);
+
+
+// let str=prompt("please enter a string");
+// if(str.length==0){
+//     console.log("str is empty")
+// }else {
+//     console.log("str is not empty")
+// }
+
+
+let str=prompt("please enter a string");
+let n=3
+if(str[n]==str[n].toLowerCase()){
+    console.log(`true ${str[n]}`);
 }else{
-    console.log("its not a golden string");
+    console.log(`false ${str[n]}`);
 }
-
-
-
-
-
-
